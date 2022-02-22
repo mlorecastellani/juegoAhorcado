@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/67e09a5a16.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+	<div style="text-align:center; margin: 0px 0px;">
+		<table text-align="center" cellspacing="25">
+			<tr>
+				<td rowspan=3>
+					<input type="button" value="Reiniciar"  class="btn" id="Reiniciar" onclick="location.reload()">	
+				</td>
+				<td rowspan=3>
+					<a type="button" href="index.html" class="btn" id="Volver">Volver</a>
+						
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<div class="padre">
+		<div class="hijo">
+			<canvas id="ahorcado" height="440px" width="1000px"></canvas>
+		</div>
+	</div>
+	
+	<footer>Oracle Alura Latam Chalenge <br>Copyright © 2022 Maria Lorena Castellani <br>
+		<section class="buttons">
+		  <a href="https://www.linkedin.com/in/maria-lorena-castellani/" class="fab fa-linkedin"></a>
+		  <a href="https://github.com/mlorecastellani" class="fab fa-github-square"></a>
+		</section>
+	</footer>
+    
+    <script  src="canvas.js"></script>
+    <script  src="ahorcado.js"></script>
+  </body>
+</html>
